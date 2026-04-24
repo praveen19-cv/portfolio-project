@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "title": "Automated Logistics Hub",
+    "category": "Robotics Integration",
+    "image": "/images/projects/project1.jpg",
+    "description": "A fully automated sorting facility processing 50k units per hour with <0.1% error rate.",
+    "extendedDescription": "By orchestrating a localized mesh network of robotic arms and conveyor modules, this logistics hub achieves unparalleled continuous runtime. The entire floor operates lights-out, governed by our central Nexus node logic that anticipates mechanical fatigue and reroutes packages dynamically.",
+    "logs": [
+      { "code": "001", "type": "INIT", "color": "text-[#14b8a6]", "message": "Deployed primary sorting frameworks." },
+      { "code": "002", "type": "ROBO", "color": "text-[#00e5ff]", "message": "Integrated 144 independent articulated arms." },
+      { "code": "003", "type": "SYNC", "color": "text-[#14b8a6]", "message": "Mesh network latency reduced to 2.4ms ping." }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Autonomous Quality Control",
+    "category": "AI Systems",
+    "image": "/images/projects/project2.jpg",
+    "description": "Computer vision pipelines identifying microscopic faults in precision manufacturing.",
+    "extendedDescription": "Relying on massive localized tensor operations, HD cameras inspect manufactured items at 200 frames per second. Our custom deep-learning models detect fractures as small as 0.2 millimeters and immediately trigger pneumatic ejection sequences without halting the production line.",
+    "logs": [
+      { "code": "001", "type": "CAM_", "color": "text-[#00e5ff]", "message": "Optical sensors calibrated to sub-millimeter delta." },
+      { "code": "002", "type": "A_AI", "color": "text-[#14b8a6]", "message": "Neural network weights successfully injected." },
+      { "code": "003", "type": "TEST", "color": "text-[#14b8a6]", "message": "Ejection pneumatic lag optimized to 15ms." }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Titan Assembly Line",
+    "category": "Machine Design",
+    "image": "/images/projects/project3.jpg",
+    "description": "Custom engineered robotic arms and conveyor systems for heavy automotive assembly.",
+    "extendedDescription": "Designed specifically for heavy payload automotive chassis assembly. The Titan machinery is built using reinforced tungsten composites to eliminate vibration variance when torque exceeds 5,000 Nm. The entire system communicates via a fail-over dual redundant PLC loop.",
+    "logs": [
+      { "code": "001", "type": "BASE", "color": "text-[#6b7280]", "message": "Tungsten reinforced chassis bolted to foundations." },
+      { "code": "002", "type": "PWR_", "color": "text-[#00e5ff]", "message": "High-voltage lines routed globally. Current stable." },
+      { "code": "003", "type": "PLC_", "color": "text-[#14b8a6]", "message": "Dual redundant logic controllers online and mirroring." }
+    ]
+  }
+]

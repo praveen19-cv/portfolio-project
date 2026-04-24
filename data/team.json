@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Alex Novak",
+    "role": "Lead Robotics Integrator",
+    "image": "/images/team/member1.jpg",
+    "bio": "Specialist in machine-to-machine protocols and automated logic pipelines."
+  },
+  {
+    "id": "2",
+    "name": "Sarah Chen",
+    "role": "AI Systems Architect",
+    "image": "/images/team/member2.jpg",
+    "bio": "Pioneering the implementation of machine learning in physical robotics."
+  },
+  {
+    "id": "3",
+    "name": "Dr. Marcus Vance",
+    "role": "Chief Engineer",
+    "image": "/images/team/member3.jpg",
+    "bio": "Over 20 years of experience designing high-precision industrial machinery."
+  }
+]

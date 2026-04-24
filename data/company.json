@@ -1,0 +1,11 @@
+{
+  "name": "Nexus Industrial Systems",
+  "email": "contact@nexus-systems.example.com",
+  "phone": "+1 (555) 019-2034",
+  "location": "Sector 4, Cybernetics Corridor",
+  "about": "We bridge the gap between heavy industry and modern intelligence. Our systems are the nervous system of tomorrow's most advanced manufacturing plants.",
+  "socials": {
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com"
+  }
+}
