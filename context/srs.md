@@ -352,5 +352,5 @@ Animation:
 ---
 
 # 14. 🧠 DESIGN PRINCIPLE
-
+<!--  -->
 > “Energy flowing through engineered systems”
