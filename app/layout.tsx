@@ -15,57 +15,58 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: `${company.name} | Industrial Automation & PLC Solutions`,
-  description: company.about,
+  title: `Synchro Automation | Industrial Automation & PLC Solutions Chennai`,
+  description: "Synchro Automation – Chennai based industrial automation company specializing in PLC programming, Special Purpose Machines (SPM), machine vision, robotics integration, and machine retrofitting for manufacturing industries.",
   keywords: [
-    "Synchro Automation", 
-    "Industrial Automation Chennai", 
-    "PLC Programming India", 
-    "Machine Vision Systems", 
-    "Special Purpose Machines (SPM)", 
-    "Machine Retrofitting", 
-    "Automation Integration"
+    "Synchro Automation",
+    "industrial automation Chennai",
+    "PLC programming Chennai",
+    "Special Purpose Machine SPM",
+    "machine vision inspection",
+    "factory automation India",
+    "machine retrofitting",
+    "robot integration UR series",
+    "Siemens PLC",
+    "automation company Chennai"
   ],
-  authors: [{ name: "Synchro Automation" }],
+  authors: [{ name: "Synchro Automation", url: "https://synchro-automation.vercel.app" }],
   creator: "Synchro Automation",
-  publisher: "Synchro Automation",
+  metadataBase: new URL("https://synchro-automation.vercel.app"),
+  alternates: {
+    canonical: "https://synchro-automation.vercel.app",
+  },
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
       "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
     },
   },
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  themeColor: "#0b1220",
   openGraph: {
-    title: `${company.name} | Industrial Automation`,
-    description: company.about,
-    url: "https://synchroautomation.com",
-    siteName: company.name,
+    title: "Synchro Automation | Industrial Automation & PLC Solutions",
+    description: "We design, build, and integrate automation systems to upgrade your existing machines and improve productivity. Based in Chennai, India.",
+    url: "https://synchro-automation.vercel.app",
+    siteName: "Synchro Automation",
     images: [
       {
-        url: "/images/machinelogo.png",
-        width: 800,
-        height: 600,
-        alt: "Synchro Automation Logo"
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Synchro Automation - Industrial Automation Chennai",
       },
     ],
-    locale: "en_US",
+    locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: company.name,
-    description: company.about,
+    title: "Synchro Automation | Industrial Automation Chennai",
+    description: "PLC programming, SPM development, machine vision, and automation solutions for manufacturing industries in India.",
+    images: ["/images/og-image.jpg"],
   },
 };
 
