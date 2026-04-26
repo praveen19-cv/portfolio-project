@@ -1,34 +1,42 @@
 [
   {
     "id": "1",
-    "title": "Machine Design",
-    "icon": "Cpu",
-    "description": "Custom physical apparatus designed for maximum durability and precision.",
-    "extendedDescription": "In a deployed environment, this service encompasses full architectural integration, ensuring minimal latency between nodes and guaranteed mechanical synergy. Our engineering team custom-tailors each implementation strictly according to payload specifications.",
-    "sysNote": "This module integrates seamlessly into the core Nexus infrastructure. Additional configuration metrics can be discussed via uplink."
+    "title": "Special Purpose Machine (SPM) Development",
+    "icon": "Settings",
+    "description": "We design and develop customized machines tailored to specific industrial requirements, improving productivity and reducing manual dependency.",
+    "extendedDescription": "",
+    "techStack": "CAD design | SolidWorks | Fixture and SPM design"
   },
   {
     "id": "2",
-    "title": "Robotics Integration",
-    "icon": "Wrench",
-    "description": "Seamless handoffs between 3rd-party robotic arms and central controllers.",
-    "extendedDescription": "We bridge foreign automation software with centralized logic cores. This guarantees that your third-party robotic arms communicate synchronously with our proprietary machinery, drastically reducing error variance.",
-    "sysNote": "Requires initial safety protocol handshake. Calibration typically completes within 4 cycles."
+    "title": "Machine Integration & Automation",
+    "icon": "Network",
+    "description": "We integrate new automation systems with existing machines, enabling seamless operation and improved efficiency without replacing entire setups.",
+    "extendedDescription": "",
+    "techStack": "Universal Robots (UR series) | Pick & place automation systems | Machine tending solutions | Modbus (RTU / TCP) | Ethernet-based communication"
   },
   {
     "id": "3",
-    "title": "AI Systems",
-    "icon": "BrainCircuit",
-    "description": "Self-optimizing predictive maintenance and operational intelligence.",
+    "title": "PLC Programming & Control Systems",
+    "icon": "Cpu",
+    "description": "We provide PLC programming and control solutions for both new and existing machines",
     "extendedDescription": "Our AI models feed directly off edge-sensor data, dynamically shifting logic loops on the fly. This prevents physical breakdowns before they happen by detecting microscopic anomalies in torque and temperature.",
-    "sysNote": "Machine-learning models are updated bi-weekly through the secure Nexus uplink channel."
+    "techStack": "Siemens (S7 series) | ABB | Delta | Flexem | HMI development & control logic design"
   },
   {
     "id": "4",
-    "title": "System Logic",
-    "icon": "Network",
-    "description": "Advanced programming of PLCs and microcontrollers for real-time monitoring.",
-    "extendedDescription": "Raw electrical engineering meets optimized code geometry. We write lean, low-level logic structures to handle thousands of IO points simultaneously without dropping a single packet of instruction data.",
-    "sysNote": "All PLCs are hot-swappable during execution phase via the redundancy pipeline."
+    "title": "Machine Retrofitting & Upgradation",
+    "icon": "Wrench",
+    "description": "We upgrade old machines with modern control systems, sensors, and design improvements to enhance performance, safety, and reliability",
+    "extendedDescription": "",
+    "techStack": "Control panel design | Sensor integration | Safety systems implementation"
+  },
+  {
+    "id": "5",
+    "title": "Machine Vision & Quality Inspection",
+    "icon": "Scan",
+    "description": "We develop intelligent inspection systems using computer vision to detect defects and ensure consistent product quality.",
+    "extendedDescription": "",
+    "techStack": "NVIDIA-based processing systems | Industrial cameras (Intel / USB / GigE) | OpenCV-based image processing | Defect detection & inspection systems"
   }
 ]

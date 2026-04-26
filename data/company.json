@@ -1,11 +1,26 @@
 {
-  "name": "Nexus Industrial Systems",
-  "email": "contact@nexus-systems.example.com",
-  "phone": "+1 (555) 019-2034",
-  "location": "Sector 4, Cybernetics Corridor",
-  "about": "We bridge the gap between heavy industry and modern intelligence. Our systems are the nervous system of tomorrow's most advanced manufacturing plants.",
+  "name": "Synchro Automation",
+  "email": "synchroautomation@gmail.com",
+  "phone": "+91 8438851682",
+  "location": "chennai",
+  "about": "Smart Special Purpose Machines & Industrial Automation Solutions We design, build, and integrate automation systems to upgrade your existing machines and improve productivity.",
   "socials": {
-    "linkedin": "https://linkedin.com",
-    "twitter": "https://twitter.com"
+    "linkedin": "",
+    "twitter": ""
+  },
+  "identity": {
+    "whoWeAre": "We are a team of engineers with a strong mix of experience and next-generation innovation, specializing in industrial automation, PLC programming, machine vision, and machine design.",
+    "vision": "To bridge the gap between traditional machinery and modern automation, enabling industries to upgrade their systems for higher efficiency and Industry 4.0 readiness.",
+    "whyChooseUs": [
+      "Cost-effective automation solutions",
+      "Strong focus on quality and reliability",
+      "Fast and practical implementation",
+      "A dynamic team combining young innovation & industry experience"
+    ],
+    "whoWeServe": [
+      "Small and medium-scale industries",
+      "Large manufacturing units",
+      "MNCs requiring automation and system integration"
+    ]
   }
 }

@@ -1,41 +1,194 @@
 [
   {
     "id": "1",
-    "title": "Automated Logistics Hub",
-    "category": "Robotics Integration",
+    "title": "Automatic Cone Packing System (Spinning Industry)",
+    "category": "Ongoing",
     "image": "/images/projects/project1.jpg",
-    "description": "A fully automated sorting facility processing 50k units per hour with <0.1% error rate.",
-    "extendedDescription": "By orchestrating a localized mesh network of robotic arms and conveyor modules, this logistics hub achieves unparalleled continuous runtime. The entire floor operates lights-out, governed by our central Nexus node logic that anticipates mechanical fatigue and reroutes packages dynamically.",
+    "description": "Developing a fully automated cone packing solution integrated with OE spinning machines.",
+    "extendedDescription": "",
     "logs": [
-      { "code": "001", "type": "INIT", "color": "text-[#14b8a6]", "message": "Deployed primary sorting frameworks." },
-      { "code": "002", "type": "ROBO", "color": "text-[#00e5ff]", "message": "Integrated 144 independent articulated arms." },
-      { "code": "003", "type": "SYNC", "color": "text-[#14b8a6]", "message": "Mesh network latency reduced to 2.4ms ping." }
+      {
+        "code": "1",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Automatic cone handling and transportation"
+      },
+      {
+        "code": "2",
+        "type": "",
+        "color": "text-[#00e5ff]",
+        "message": "Elimination of manual packing"
+      },
+      {
+        "code": "3",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Improved efficiency and continuous operation"
+      }
     ]
   },
   {
     "id": "2",
-    "title": "Autonomous Quality Control",
-    "category": "AI Systems",
+    "title": "Label Inspection System (Machine Vision)",
+    "category": "Ongoing",
     "image": "/images/projects/project2.jpg",
-    "description": "Computer vision pipelines identifying microscopic faults in precision manufacturing.",
-    "extendedDescription": "Relying on massive localized tensor operations, HD cameras inspect manufactured items at 200 frames per second. Our custom deep-learning models detect fractures as small as 0.2 millimeters and immediately trigger pneumatic ejection sequences without halting the production line.",
+    "description": "Designed a quality inspection system using NVIDIA processing and industrial cameras",
+    "extendedDescription": "This ensures reduced defects and consistent product quality for customers.",
     "logs": [
-      { "code": "001", "type": "CAM_", "color": "text-[#00e5ff]", "message": "Optical sensors calibrated to sub-millimeter delta." },
-      { "code": "002", "type": "A_AI", "color": "text-[#14b8a6]", "message": "Neural network weights successfully injected." },
-      { "code": "003", "type": "TEST", "color": "text-[#14b8a6]", "message": "Ejection pneumatic lag optimized to 15ms." }
+      {
+        "code": "1",
+        "type": "",
+        "color": "text-[#00e5ff]",
+        "message": "Sticker roll unwinding"
+      },
+      {
+        "code": "2",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Real-time defect detection using computer vision"
+      },
+      {
+        "code": "3",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Automatic rewinding"
+      }
     ]
   },
   {
     "id": "3",
-    "title": "Titan Assembly Line",
-    "category": "Machine Design",
+    "title": "Paper Tag Manufacturing Machine Integration",
+    "category": "Completed",
     "image": "/images/projects/project3.jpg",
-    "description": "Custom engineered robotic arms and conveyor systems for heavy automotive assembly.",
-    "extendedDescription": "Designed specifically for heavy payload automotive chassis assembly. The Titan machinery is built using reinforced tungsten composites to eliminate vibration variance when torque exceeds 5,000 Nm. The entire system communicates via a fail-over dual redundant PLC loop.",
+    "description": "Integrated PLC systems and implemented mechanical design improvements to enhance machine performance and reduce downtime.",
+    "extendedDescription": "Upgraded the machine to deliver smoother operation and improved production output.",
     "logs": [
-      { "code": "001", "type": "BASE", "color": "text-[#6b7280]", "message": "Tungsten reinforced chassis bolted to foundations." },
-      { "code": "002", "type": "PWR_", "color": "text-[#00e5ff]", "message": "High-voltage lines routed globally. Current stable." },
-      { "code": "003", "type": "PLC_", "color": "text-[#14b8a6]", "message": "Dual redundant logic controllers online and mirroring." }
+      {
+        "code": "1",
+        "type": "",
+        "color": "text-[#6b7280]",
+        "message": "PLC integration for automated machine operation"
+      },
+      {
+        "code": "2",
+        "type": "",
+        "color": "text-[#00e5ff]",
+        "message": "Mechanical design improvements for better workflow"
+      },
+      {
+        "code": "3",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Enhanced process control and machine reliability"
+      },
+      {
+        "code": "4",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Reduced downtime and manual adjustments"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Sanforizing Machine Automation (Textile Industry)",
+    "category": "Completed",
+    "image": "/images/projects/project3.jpg",
+    "description": "Converted a manually operated process into a closed-loop PLC-controlled system, resulting in consistent fabric quality and improved process control.",
+    "extendedDescription": "Achieved consistent fabric quality and eliminated process variations through automated control.",
+    "logs": [
+      {
+        "code": "1",
+        "type": "",
+        "color": "text-[#6b7280]",
+        "message": "Converted manual process into PLC-based closed-loop system"
+      },
+      {
+        "code": "2",
+        "type": "",
+        "color": "text-[#00e5ff]",
+        "message": "Real-time control of process parameters"
+      },
+      {
+        "code": "3",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Improved synchronization of machine operations"
+      },
+      {
+        "code": "4",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Stable and repeatable fabric processing"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Water Bottle Filling & Packing Machine Automation",
+    "category": "Completed",
+    "image": "/images/projects/project3.jpg",
+    "description": "Developed PLC-based automation to streamline filling and packing operations, improving efficiency and reliability.",
+    "extendedDescription": "",
+    "logs": [
+      {
+        "code": "1",
+        "type": "",
+        "color": "text-[#6b7280]",
+        "message": " Fully automated filling and packing sequence"
+      },
+      {
+        "code": "2",
+        "type": "",
+        "color": "text-[#00e5ff]",
+        "message": "Precise control of filling operations using PLC"
+      },
+      {
+        "code": "3",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Synchronized conveyor and packing system"
+      },
+      {
+        "code": "4",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Reduced manual intervention and cycle time"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Sheet Metal Slitting Machine Retrofit",
+    "category": "Completed",
+    "image": "/images/projects/project3.jpg",
+    "description": "Upgraded existing machine with: Safety sensor |  Improved PLC logic | Optimized unwinding process - Resulting in safer and smoother operations.",
+    "extendedDescription": "",
+    "logs": [
+      {
+        "code": "1",
+        "type": "",
+        "color": "text-[#6b7280]",
+        "message": "Integration of safety sensors for operator protection"
+      },
+      {
+        "code": "2",
+        "type": "",
+        "color": "text-[#00e5ff]",
+        "message": "PLC logic optimization for better process flow"
+      },
+      {
+        "code": "3",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Improved unwinding and material handling"
+      },
+      {
+        "code": "4",
+        "type": "",
+        "color": "text-[#14b8a6]",
+        "message": "Enhanced machine safety and reliability"
+      }
     ]
   }
 ]

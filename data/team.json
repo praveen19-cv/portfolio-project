@@ -1,23 +1,44 @@
 [
   {
     "id": "1",
-    "name": "Alex Novak",
-    "role": "Lead Robotics Integrator",
-    "image": "/images/team/member1.jpg",
-    "bio": "Specialist in machine-to-machine protocols and automated logic pipelines."
+    "name": "Nithish Chandan",
+    "role": "Mechatronics Engineer",
+    "image": "",
+    "bio": "Designs and integrates intelligent mechanical systems with PLC-based automation"
   },
   {
     "id": "2",
-    "name": "Sarah Chen",
-    "role": "AI Systems Architect",
-    "image": "/images/team/member2.jpg",
-    "bio": "Pioneering the implementation of machine learning in physical robotics."
+    "name": "Sanjay B",
+    "role": "Lead Designer",
+    "image": "",
+    "bio": "Drives innovative machine design and system architecture"
   },
   {
     "id": "3",
-    "name": "Dr. Marcus Vance",
-    "role": "Chief Engineer",
-    "image": "/images/team/member3.jpg",
-    "bio": "Over 20 years of experience designing high-precision industrial machinery."
+    "name": "Praveen Kumar",
+    "role": "ML Engineer",
+    "image": "",
+    "bio": "Designs and deploys machine learning models for industrial automation solutions"
+  },
+    {
+    "id": "4",
+    "name": "Abhiram",
+    "role": "Electrical & Communication Engineer",
+    "image": "",
+    "bio": "Designs control panels and develops PLC programs for seamless machine automation"
+  },
+    {
+    "id": "5",
+    "name": "Rineeth",
+    "role": "Robotics Engineer",
+    "image": "",
+    "bio": "Builds and optimizes robotic systems for industrial automation"
+  },
+    {
+    "id": "6",
+    "name": "Sanjay G",
+    "role": "Machine Vision Engineer",
+    "image": "",
+    "bio": "Implements vision-based inspection systems for quality assurance"
   }
 ]

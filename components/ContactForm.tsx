@@ -62,7 +62,12 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 max-w-xl mx-auto w-full">
+    <div className="max-w-2xl mx-auto w-full bg-[#111827] border border-[#1e293b] rounded-2xl p-8 md:p-12 shadow-2xl relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-[#00e5ff]/5 to-transparent rounded-bl-full pointer-events-none" />
+      <form 
+        onSubmit={handleSubmit(onSubmit)} 
+        className="space-y-8 relative z-10"
+      >
       <div className="space-y-2 relative group">
         <div className="absolute inset-x-0 bottom-0 scan-line hidden group-focus-within:block" />
         <input
@@ -107,7 +112,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full glass-card hover-glow py-4 text-[#00e5ff] font-mono tracking-widest uppercase flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed group"
+        className="w-full bg-[#0b1220] border border-[#00e5ff]/40 hover:bg-[#00e5ff]/10 hover:border-[#00e5ff] transition-all duration-300 py-4 mt-8 text-[#00e5ff] font-mono tracking-widest uppercase flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed group rounded-lg shadow-[0_0_15px_rgba(0,229,255,0.1)] hover:shadow-[0_0_25px_rgba(0,229,255,0.25)]"
       >
         {isSubmitting ? (
           <span className="animate-pulse">[TRANSMITTING_DATA...]</span>
@@ -119,5 +124,6 @@ export default function ContactForm() {
         )}
       </button>
     </form>
+    </div>
   );
 }

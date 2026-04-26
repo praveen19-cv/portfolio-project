@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Cpu, Wrench, BrainCircuit, Network, Layers, X, Terminal } from "lucide-react";
+import { Cpu, Wrench, BrainCircuit, Network, Layers, X, Terminal, Settings, Scan } from "lucide-react";
 import servicesData from "@/data/services.json";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -10,6 +10,8 @@ const iconMap: Record<string, any> = {
   Wrench: Wrench,
   BrainCircuit: BrainCircuit,
   Network: Network,
+  Settings: Settings,
+  Scan: Scan
 };
 
 export default function ServicesSection() {
@@ -32,11 +34,15 @@ export default function ServicesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {servicesData.map((service, index) => {
             const IconComponent = iconMap[service.icon] || Layers;
+            const isLastOdd = servicesData.length % 2 !== 0 && index === servicesData.length - 1;
+            
             return (
               <div 
                 key={service.id} 
                 onClick={() => setSelectedService(service)}
-                className="glass-card p-8 rounded-xl hover-glow group transition-all duration-300 cursor-pointer relative overflow-hidden"
+                className={`glass-card p-8 rounded-xl hover-glow group transition-all duration-300 cursor-pointer relative overflow-hidden ${
+                  isLastOdd ? "md:col-span-2 md:w-[calc(50%-1rem)] md:mx-auto w-full" : ""
+                }`}
               >
                 <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#00e5ff]/5 to-transparent rounded-bl-full pointer-events-none group-hover:from-[#00e5ff]/20 transition-colors" />
                 <div className="flex items-start gap-6">
@@ -102,21 +108,24 @@ export default function ServicesSection() {
                      </div>
                    </div>
                    
-                   <div className="mb-8 w-full aspect-[21/9] bg-[#111827] border border-[#1e293b] rounded flex items-center justify-center relative overflow-hidden group">
+                   {/* <div className="mb-8 w-full aspect-[21/9] bg-[#111827] border border-[#1e293b] rounded flex items-center justify-center relative overflow-hidden group">
                       <Terminal className="w-12 h-12 text-[#1e293b] absolute transition-transform group-hover:scale-110" />
                       <span className="font-mono text-[#00e5ff]/50 text-sm z-10 mix-blend-screen">[ PREVIEW_VISUALIZER // {selectedService.title.toUpperCase().replace(" ", "_")} ]</span>
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0b1220] to-transparent pointer-events-none" />
-                   </div>
+                   </div> */}
 
                    <h3 className="text-xl text-white font-mono uppercase mb-4 border-l-2 border-[#00e5ff] pl-4">Overview</h3>
                    <p className="text-[#9ca3af] leading-relaxed mb-8">
-                     {selectedService.description} {selectedService.extendedDescription}
+                     {selectedService.description} 
+                     <br></br>
+                     <br></br>
+                     {selectedService.extendedDescription}
                    </p>
 
-                   {selectedService.sysNote && (
+                   {selectedService.techStack && (
                      <div className="bg-[#111827] p-6 border-l-2 border-[#14b8a6] font-mono text-sm text-[#9ca3af] shadow-inner">
-                        <span className="text-[#00e5ff] font-bold block mb-2">SYS_NOTE:</span> 
-                        {selectedService.sysNote}
+                        <span className="text-[#00e5ff] font-bold block mb-2">TECH STACK:</span> 
+                        {selectedService.techStack}
                      </div>
                    )}
                 </div>

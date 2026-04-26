@@ -36,7 +36,9 @@ export default async function ProjectPage({
 
         {/* HEADER */}
         <div className="mb-8">
-           <span className="text-[#14b8a6] font-mono tracking-widest text-sm uppercase block mb-3">
+           <span className={`font-mono tracking-widest text-sm uppercase block mb-3 ${
+             project.category === "Ongoing" ? "text-[#fbbf24]" : "text-[#14b8a6]"
+           }`}>
             [CATEGORY: {project.category}]
           </span>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-white mb-6">
@@ -45,12 +47,12 @@ export default async function ProjectPage({
         </div>
 
         {/* IMAGE PLACEHOLDER */}
-        <div className="w-full aspect-[21/9] bg-[#111827] border border-[#1e293b] rounded-xl mb-12 relative flex flex-col items-center justify-center overflow-hidden">
+        {/* <div className="w-full aspect-[21/9] bg-[#111827] border border-[#1e293b] rounded-xl mb-12 relative flex flex-col items-center justify-center overflow-hidden">
             <Terminal className="w-16 h-16 text-[#1e293b] absolute opacity-20" />
             <span className="font-mono text-[#00e5ff]/50 z-10">[IMAGE_DATA_NOT_FOUND]</span>
             <span className="font-mono text-[#6b7280] text-xs z-10 mt-2">{project.image}</span>
             <div className="absolute inset-0 bg-gradient-to-t from-[#0b1220] to-transparent pointer-events-none" />
-        </div>
+        </div> */}
 
         {/* CONTENT */}
         <div className="glass-card p-8 md:p-12 rounded-xl text-[#9ca3af]">
@@ -66,7 +68,7 @@ export default async function ProjectPage({
           
           {project.logs && project.logs.length > 0 && (
             <>
-              <h2 className="text-xl text-white font-mono uppercase mb-4 border-l-2 border-[#14b8a6] pl-4">Technical Logs</h2>
+              <h2 className="text-xl text-white font-mono uppercase mb-4 border-l-2 border-[#14b8a6] pl-4">System Highlights</h2>
               <div className="space-y-4 font-mono text-sm bg-[#0b1220] p-6 rounded border border-[#1e293b]">
                 {project.logs.map((log: any, index: number) => (
                   <div key={index} className="flex gap-4">
